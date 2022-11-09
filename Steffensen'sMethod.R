@@ -1,7 +1,7 @@
 
 g <- function(x)
 {
-  x^3+4*x^20-10
+  sqrt(10/(4+x))
 }
 p0 <- 1.5
 steffensen <-  function(g, p0, tol = 1e-5, maxIter = 100)
